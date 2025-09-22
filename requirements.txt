@@ -1,0 +1,29 @@
+# Backend (API + Agent)
+fastapi==0.111.0
+uvicorn==0.30.0
+
+# LangChain (core)
+langchain==0.2.10
+langchain-community==0.2.10
+langchain-huggingface==0.0.3  # vẫn giữ nếu bạn dùng HuggingFace cho embedding
+
+# Together AI (LLaMA 3 models)
+openai==1.35.13   # Dùng OpenAI-compatible API cho TogetherAI
+
+# Google Gemini API
+google-generativeai==0.5.4   # Thư viện chính thức của Google
+
+# Embedding & Retrieval
+faiss-cpu==1.8.0
+sentence-transformers==2.7.0
+
+# Data processing
+pandas==2.2.2
+numpy==1.26.4
+
+# Frontend (Streamlit)
+streamlit==1.36.0
+
+# HTTP requests
+requests==2.32.0
+
